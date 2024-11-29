@@ -33,12 +33,36 @@ This is a simple starter template for creating websites using HTML and Tailwind 
 #### Step 4: Open the Repository in a Codespace
 - On your repository page, click the **Code** button, then select **Codespaces** and create a new Codespace. This sets up a cloud-based development environment for you.
 
+#### Step 5: Install a webserver
+
+Run the following command in your terminal below
+
+```bash
+npm install -g http-server
+```
+
+Then test your site is working by running 
+
+```bash
+http-server
+```
+
+wait for the link pop up to appear, you may need to refresh the localhost tab to get it through the filters. 
 
 ### Working on Your Project
 
 #### Making Changes
 - Open the `index.html` file and start editing to customize your site.
 - You can view your site by opening the file in a browser.
+
+#### Testing your Changes
+- run the server from the terminal using the same command as you did in setup
+
+```bash
+http-server
+```
+
+if this doesn't work, then you might need to reinstall the server as described in the setup of the readme
 
 #### Committing and Pushing Changes
 Every time you make changes (e.g., after each lesson) you will need to upload your changes to github
